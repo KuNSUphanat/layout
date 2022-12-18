@@ -1,0 +1,47 @@
+body{
+    padding: 0%;
+    margin: auto;
+}
+.main{
+    background-color: rgb(224, 224, 224);
+    padding: 10px 20px 20px 10px;
+}
+.logo{
+    background-color: gray;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+.NAV{
+    background-color: rgb(167, 167, 167);
+    padding: 0.5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Header{
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Sodebar{
+    background-color: rgb(167, 167, 167);
+    display: block;
+    margin-right: 10px;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Body{
+    background-color: gray;
+    display: block;
+    padding: 15%;
+    flex: 1;
+    text-align: center;
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+}

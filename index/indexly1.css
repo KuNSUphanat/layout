@@ -1,0 +1,155 @@
+body{
+    padding: 0%;
+    margin: auto;
+}
+.main{
+    background-color: rgb(224, 224, 224);
+    padding: 10px 20px 20px 10px;
+}
+.logo{
+    background-color: gray;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+.NAV{
+    background-color: rgb(167, 167, 167);
+    padding: 0.5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Header{
+    background-color: gray;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Sodebar{
+    background-color: rgb(167, 167, 167);
+    display: block;
+    margin-right: 10px;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Body{
+    background-color: gray;
+    display: block;
+    padding: 15%;
+    flex: 1;
+    text-align: center;
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+}
+body{
+    padding: 0%;
+    margin: auto;
+}
+.main2{
+    background-color: rgb(224, 224, 224);
+    padding: 10px 20px 20px 10px;
+}
+
+.logonav2 {
+    display: flex;
+    background: gray;
+    padding: 15px;
+    margin: 0px 0px 15px;
+}
+
+.logo2,.NAV2 {
+    flex: 1;
+}
+
+.hb2{
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.intro2{
+    background-color: rgb(167, 167, 167);
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Box1,.Box2,.Box3{
+    background-color: rgb(167, 167, 167);
+    padding: 10%;
+    display: block;
+    margin: 2px;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Box2{
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+.footer2{
+    background-color: gray;
+    text-align: center;
+}
+body {
+    margin: 0;
+    background: white;
+}
+
+.main4 {
+    height: 80px;
+    background: gray;
+}
+
+.text {
+    height: 22px;
+    width: 100%;
+    background: lightgray;
+}
+
+.text-bold {
+    background: gray;
+    height: 25px;
+    width: 100%;
+}
+
+.image {
+    height: 330px;
+    width: 100%;
+    background: gray;
+}
+.image-light {
+    margin-top: 20px;
+    height: 150px;
+    width: 100%;
+    background: silver;
+}
+.image-small {
+    width: 100%;
+    height: 100%;
+    background: silver;
+
+}
+
+.container {
+    padding: 50px 180px 50px 180px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+}
+
+.box-border {
+    height: 100%;
+    border: 3px solid silver;
+}

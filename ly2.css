@@ -1,0 +1,53 @@
+body{
+    padding: 0%;
+    margin: auto;
+}
+.main{
+    background-color: rgb(224, 224, 224);
+    padding: 10px 20px 20px 10px;
+}
+
+.logonav {
+    display: flex;
+    background: gray;
+    padding: 15px;
+    margin: 0px 0px 15px;
+}
+
+.logo,.NAV {
+    flex: 1;
+}
+
+.hb{
+    background-color: gray;
+    padding: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.intro{
+    background-color: rgb(167, 167, 167);
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Box1,.Box2,.Box3{
+    background-color: rgb(167, 167, 167);
+    padding: 10%;
+    display: block;
+    margin: 2px;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Box2{
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+.footer{
+    background-color: gray;
+    text-align: center;
+}

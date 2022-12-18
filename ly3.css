@@ -1,0 +1,63 @@
+body{
+    padding: 0%;
+    margin: auto;
+}
+.main{
+    background-color: rgb(224, 224, 224);
+    padding: 10px 20px 20px 10px;
+}
+
+.logonav {
+    display: flex;
+    background: gray;
+    padding: 15px;
+    margin: 0px 0px 15px;
+}
+
+.logo,.NAV {
+    flex: 1;
+}
+
+.Header{
+    background-color: rgb(167, 167, 167);
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.dock {
+    display: flex;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    flex-wrap: wrap;
+}
+.dock>div {
+    flex: 1 0 15%;
+    margin: 0px 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: rgb(167, 167, 167);
+}
+
+.Box1,.Box2,.Box3{
+    background-color: gray;
+    padding: 10%;
+    display: block;
+    margin: 50px 0px 10px ;
+    flex: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.Box2{
+    margin-right:50px;
+    margin-left: 50px;
+}
+
+.footer{
+    background-color: rgb(167, 167, 167);
+    text-align: center;
+}
